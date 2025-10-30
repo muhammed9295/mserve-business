@@ -145,19 +145,19 @@ export default function Page() {
 		{
 			icon: <FaWhatsapp className="w-6 h-6" />,
 			title: 'WhatsApp / Phone',
-			value: '+966 5X XXX XXXX',
+			value: '+966 55 740 5137',
 			subtitle: 'Available 24/7',
 		},
 		{
 			icon: <FaEnvelope className="w-6 h-6" />,
 			title: 'Email',
-			value: 'business@mserve.com.sa',
+			value: 'info@mserve.com.sa',
 			subtitle: 'Response within 24 hours',
 		},
 		{
 			icon: <FaGlobe className="w-6 h-6" />,
 			title: 'Website',
-			value: 'mserve.com.sa/business',
+			value: 'mserve.com.sa',
 			subtitle: 'Learn more about our services',
 		},
 	]
