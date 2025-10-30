@@ -14,11 +14,10 @@ import { FaBroom, FaWind, FaTools, FaClipboardCheck, FaAward, FaClock, FaUserGra
 
 export default function Page() {
 	const menuItems = [
-		{ label: 'Home', href: '#home' },
-		{ label: 'About', href: '#about' },
+		{ label: 'Our Services', href: '#our-services' },
 		{ label: 'Why choose us', href: '#why-choose-us' },
 		{ label: 'How it works', href: '#how-it-works' },
-		{ label: 'Contact us', href: '#contact' },
+		{ label: 'Contacts', href: '#contact-us' },
 	]
 
 	const logo = (
@@ -33,9 +32,11 @@ export default function Page() {
 	)
 
 	const actions = (
-		<Button size="md">
-			Request Quote
-		</Button>
+		<a href="#quick-request-form">
+			<Button size="md">
+				Request Quote
+			</Button>
+		</a>
 	)
 
 	const services = [
@@ -173,7 +174,7 @@ export default function Page() {
 			<Hero />
 			<OurServices 
 				services={services}
-				rightColumn={<QuickRequestForm />}
+				rightColumn={<div id="quick-request-form"><QuickRequestForm /></div>}
 			/>
 			<WhyChooseUs cards={whyChooseUsCards} />
 			<HowItWorks steps={howItWorksSteps} />

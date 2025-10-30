@@ -18,7 +18,7 @@ export function HowItWorks({
 	className = '',
 }: HowItWorksProps) {
 	return (
-		<section className={`w-full py-20 md:py-32 bg-gray-50 ${className}`}>
+		<section id="how-it-works" className={`w-full py-20 md:py-32 bg-gray-50 ${className}`}>
 			<div className="container mx-auto px-4">
 				{/* Section Header */}
 				<div className="text-center mb-16">
@@ -77,12 +77,14 @@ export function HowItWorks({
 					<p className="text-gray-700 text-lg mb-6">
 						Ready to experience professional facility management?
 					</p>
+				<a href="#quick-request-form">
 					<Button
 						size="lg"
 						icon={<FaArrowRight className="w-5 h-5" />}
 					>
 						Start Your Request Now
 					</Button>
+				</a>
 				</div>
 			</div>
 		</section>

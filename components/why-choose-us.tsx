@@ -16,7 +16,7 @@ export function WhyChooseUs({
 	className = '',
 }: WhyChooseUsProps) {
 	return (
-		<section className={`w-full py-20 md:py-32 bg-gradient-to-br from-blue-900 to-blue-950 ${className}`}>
+		<section id="why-choose-us" className={`w-full py-20 md:py-32 bg-gradient-to-br from-blue-900 to-blue-950 ${className}`}>
 			<div className="container mx-auto px-4">
 				{/* Section Header */}
 				<div className="text-center mb-16">
